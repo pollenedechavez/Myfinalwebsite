@@ -1,0 +1,21 @@
+
+body{
+    background-color:rgb(214, 184, 199);
+}
+h1{
+   background-color:cornflowerblue;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+   font-style: italic;
+}
+
+h1{
+    color:red;
+}
+img{
+    height: 500px;
+    width: 500px;
+}

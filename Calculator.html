@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="wdith=device-width,initial-scale=1">
+        <title> JavaScript Function</title>
+        <link rel="stylesheet" type="text/css" href="cs/css.css">
+        <script type="text/javascript" src="js/js.js"> </script>
+    </head>
+    <body> 
+        <h1 id= "Addition" >CALCULATOR</h1>
+        <label>ADDITION</label>
+        <input id="add1" type="text" name="sum1">+
+        <input id="add2" type="text" name="sum2">=
+        <input id="add3" type="text" name="sum3">
+        <button onclick="let result = calc1 ( document.getElementById('add1').value,
+             document.getElementById('add2').value);
+             document.getElementById('add3').value=result;
+            ">add</button>
+        </button>
+        <br>
+        <br>
+        <br>
+        <label>SUBSTRACTION</label>
+        <input id="sub1" type="text" name="sum1">-
+        <input id="sub2" type="text" name="sum2">=
+        <input id="sub3" type="text" name="sum3">
+        <button onclick="
+         let result= calc ( document.getElementById)('sub1').value,
+             document.getElementById('sub2').value;
+             document.getElementById('sub3').value=result;
+            ">sub</button>
+        <br>
+        <br>
+        <br>
+        <label>MULTIPLICATION</label>
+        <input id="multi1" type="text" name="sum1">*
+        <input id="multi2" type="text" name="sum2">=
+        <input id="multi3" type="text" name="sum3">
+        <button onclick="multiplication()">Press</button>
+        <br>
+        <br>
+        <br>
+        <label>DIVISION</label>
+        <input id="div1" type="text" name="sum1">/
+        <input id="div2" type="text" name="sum2">=
+        <input id="div3" type="text" name="sum3">
+        <button onclick="division()">Press</button>
+    </body>
+    </html>
